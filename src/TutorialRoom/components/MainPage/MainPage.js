@@ -25,6 +25,7 @@ export default function MainPage(props) {
             <img
               src="https://i.imgur.com/EDrFHpv.png"
               alt="google drives initial page"
+              className='center-image'
             ></img>
 
             <p>
@@ -33,6 +34,7 @@ export default function MainPage(props) {
               <img
                 src="https://i.imgur.com/WkpYYux.png"
                 alt="botao novo do google drive"
+                
               ></img>
               , no canto superior esquerdo da tela.
             </p>
@@ -53,6 +55,7 @@ export default function MainPage(props) {
             <img
               src="https://i.imgur.com/TISB0T2.gif"
               alt="criando uma pasta no windows"
+              className='center-image'
             ></img>
             <p>
               4. <b>Abra a pasta arquivos-a-transferir</b>, use as bordas pra
@@ -64,6 +67,7 @@ export default function MainPage(props) {
             <img
               src="https://i.imgur.com/SRx4NIx.gif"
               alt="como redimensionar janelas no windows"
+              className='center-image'
             ></img>
             <p>
               5. <b>Selecione os arquivos a serem transferidos</b> e os arraste
@@ -79,6 +83,7 @@ export default function MainPage(props) {
             <img
               src="https://i.imgur.com/9rpErP1.gif"
               alt="como adicionar arquivos ao google drive"
+              className='center-image'
             ></img>
             <p>
               7. <b>No PC destino</b>, acesse{" "}

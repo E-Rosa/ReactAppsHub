@@ -1,30 +1,43 @@
+
 html{
     display:flex;
     justify-content: center;
+    padding:0;
+    margin:0;
 }
 body{
-    max-width:600px;
+    margin:0;
+}
+p{
+    overflow-wrap: break-word;
+}
+.MainPage{
+    width:100vw;
+    margin:0;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color:rgb(17, 17, 17);
-    color:rgb(226, 226, 226)
+    color:rgb(226, 226, 226);
 }
 .Posts-container{
-    width:100%;
+    width:80%;
+    max-width:620px;
     display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     border-left: 1px solid grey;
     border-right:1px solid grey;
     padding: 0vh 30px;
-    background-color:rgb(29, 29, 29)
+    background-color:rgb(29, 29, 29);
+    overflow-wrap:break-word;
 }
 .center-image{
     align-self:center;
     justify-self:center;
+    width:100%;
+    max-width:620px;
 }
 .list-dot{
     border-radius:100%;
