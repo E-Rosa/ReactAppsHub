@@ -1,13 +1,9 @@
-import Table from "./PersonalFinancesManager/components/Table/Table.js";
+import MainPage from "./TutorialRoom/components/MainPage/MainPage.js";
 
 function App() {
   return (
     <div className="App">
-      <Table 
-        label="Eating"
-        totalSpent={10}
-        limit={20}
-      />
+      <MainPage />
     </div>
   );
 }
