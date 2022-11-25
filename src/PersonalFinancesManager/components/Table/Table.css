@@ -1,0 +1,38 @@
+.Table{
+    min-width:315px;
+    width:900px;
+    max-width:95vw;
+    display:flex;
+    flex-direction: column;
+}
+
+/**********************************************************/
+/*Header*/
+.tableHeader{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr .2fr;
+    width:100%;
+}
+.headerLabel{
+    font-size:1em;
+    font-weight: 300;
+}
+/**********************************************************/
+/*Row*/
+.tableRow{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr .2fr;
+}
+.tableLabel{
+
+}
+.tableNumber{
+
+}
+.tableInput{
+    max-width:50px;
+}
+.tableIcon{
+    width:20px;
+}
